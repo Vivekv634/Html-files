@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in HTML</title>
+    <style>
+        td{
+            text-align: center;
+        }
+        /* table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        } */
+        tr:nth-child(even){
+            background-color: rgba(133, 133, 133, 0.4);
+        }
+        tr:nth-child(odd){
+            background-color: rgba(45, 45, 168, 0.39);
+        }
+        tr:hover{
+            background-color: rgb(102, 212, 102);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Data</caption>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>Vivek Vaish</td>
+            <td>Budaun</td>
+        </tr>
+        <tr>
+            <td>Dakshita Saxena</td>
+            <td>Budaun</td>
+        </tr>
+        <tr>
+            <td>Aditya Vishvakarma</td>
+            <td>Lucknow</td>
+        </tr>
+    </table>
+</body>
+</html>
